@@ -6,7 +6,7 @@ Leap integration with JRuby, with easy access to Leap's events.
 ## Setup
 
 * Clone this directory (gem not setup yet)
-* Install JRuby[http://jruby.org/getting-started].
+* Install JRuby[http://jruby.org/getting-started]. (`rvm install jruby` should "just work")
 * Get the latest version of the Leap SDK (0.7.0).
 * Copy these files here: `cp /path/to/Leap/lib/{libLeap.dylib,lib_LeapJava.dylib,LeapJava.jar} .`
 * Run the `Leap` background application
