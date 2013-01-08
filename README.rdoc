@@ -7,7 +7,7 @@ Leap integration with JRuby, with easy access to Leap's events.
 * Clone this directory (gem not setup yet)
 
 * Install JRuby[http://jruby.org/getting-started]. My favorite way is:
-  <code>rvm install jruby</code>
+  <code>rvm install jruby</code>g
 
 * Get the latest version of the Leap SDK (0.7.0).
 
@@ -16,10 +16,9 @@ Leap integration with JRuby, with easy access to Leap's events.
 
 * Run the *Leap* background application
 
-* Test the connection of your Leap (it will output simple info about each frame, and demonstrates how to listen for Leap events):
- 	<code>rake</code>
+* Run <code>rake</code> to test the connection of your Leap (it will output simple info about each frame, and demonstrates how to listen for Leap events):
 
-== Sample.rb
+== What is Sample.rb?
 
 This is just a proof-of-concept "Hello World" that mimics the
 +Sample.*+ files in Leap SDK.
