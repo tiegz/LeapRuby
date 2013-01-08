@@ -1,3 +1,13 @@
+################################################################################
+# Copyright (C) 2012 Leap Motion, Inc. All rights reserved.                    #
+# NOTICE: This developer release of Leap Motion, Inc. software is confidential #
+# and intended for very limited distribution. Parties using this software must #
+# accept the SDK Agreement prior to obtaining this software and related tools. #
+# This software is subject to copyright.                                       #
+################################################################################
+
+# NOTE: this is a version of the Leap Sample.* files in JRuby
+
 if RUBY_PLATFORM != "java"
 	raise "Run this script with JRuby: http://jruby.org/getting-started"
 end
