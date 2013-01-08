@@ -18,8 +18,7 @@ Leap integration with JRuby, with easy access to Leap's events.
 
 * Run <code>rake</code> to test the connection of your Leap (it will output simple info 
   about each frame, and demonstrates how to listen for Leap events). It should look like this:
-
-  <code>
+	<code>
   Initialized
   ...
   Frame:   744531 Timestamp: 9970919044 Hands:  1 Fingers:  3 Tools:  0
