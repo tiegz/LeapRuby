@@ -1,7 +1,7 @@
-# 
+if RUBY_PLATFORM != "java"
+	raise "Run this script with JRuby: http://jruby.org/getting-started"
+end
 
-$: << "."
-require 'java' # not sure if we need this
 require 'LeapJava.jar'
 
 java_import java.lang.Math;
@@ -61,17 +61,13 @@ class SampleListener < Listener
 			puts "Hand curvature radius: #{hand.sphereRadius} mm"
 		end
 	end
-
 end
 
 listener = SampleListener.new
 controller = Controller.new
-
 controller.addListener listener
+
 puts "Press Enter to quit"
-begin
-	gets
-rescue => e
-	puts e
-end
+gets
+
 controller.removeListener listener
