@@ -10,13 +10,15 @@ Leap integration with JRuby, with easy access to Leap's events.
 
 * Get the latest version of the Leap SDK (0.7.0).
 
-* Copy the necessary files: +cp /path/to/Leap/lib/{libLeap.dylib,lib_LeapJava.dylib,LeapJava.jar} .+
+* Copy the necessary files: 
+
+  <code>cp /path/to/Leap/lib/{libLeap.dylib,lib_LeapJava.dylib,LeapJava.jar} .</code>
 
 * Run the *Leap* background application
 
 * Test the connection of your Leap (it will output simple info about each frame, and demonstrates how to listen for Leap events):
  
- 	rake
+ 	<code>rake</code>
 
 == Sample.rb
 
