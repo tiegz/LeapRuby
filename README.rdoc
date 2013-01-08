@@ -16,7 +16,18 @@ Leap integration with JRuby, with easy access to Leap's events.
 
 * Run the *Leap* background application
 
-* Run <code>rake</code> to test the connection of your Leap (it will output simple info about each frame, and demonstrates how to listen for Leap events):
+* Run <code>rake</code> to test the connection of your Leap (it will output simple info 
+  about each frame, and demonstrates how to listen for Leap events). It should look like this:
+
+  Initialized
+  ...
+  Frame:   744531 Timestamp: 9970919044 Hands:  1 Fingers:  3 Tools:  0
+	Frame:   744544 Timestamp: 9971038006 Hands:  1 Fingers:  4 Tools:  0
+	Frame:   744545 Timestamp: 9971047247 Hands:  1 Fingers:  4 Tools:  0
+	Frame:   744548 Timestamp: 9971074568 Hands:  1 Fingers:  5 Tools:  0
+	Frame:   744549 Timestamp: 9971083662 Hands:  1 Fingers:  5 Tools:  0
+	...
+	Exit
 
 == What is Sample.rb?
 
