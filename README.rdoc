@@ -7,7 +7,7 @@ Leap integration with JRuby, with easy access to Leap's events.
 * Clone this directory (gem not setup yet)
 
 * Install JRuby[http://jruby.org/getting-started]. My favorite way is:
-  <code>rvm install jruby</code>g
+  <code>rvm install jruby</code>
 
 * Get the latest version of the Leap SDK (0.7.0).
 
@@ -20,7 +20,7 @@ Leap integration with JRuby, with easy access to Leap's events.
 
 == What is Sample.rb?
 
-This is just a proof-of-concept "Hello World" that mimics the
+This is just a proof-of-concept _Hello World_ that mimics the
 +Sample.*+ files in Leap SDK.
 
 == Author
