@@ -21,13 +21,21 @@ Leap integration with JRuby, with easy access to Leap's events.
 
 
 <code>Initialized</code>
+
 <code>...</code>
+
 <code>Frame:   744531 Timestamp: 9970919044 Hands:  1 Fingers:  3 Tools:  0</code>
+
 <code>Frame:   744544 Timestamp: 9971038006 Hands:  1 Fingers:  4 Tools:  0</code>
+
 <code>Frame:   744545 Timestamp: 9971047247 Hands:  1 Fingers:  4 Tools:  0</code>
+
 <code>Frame:   744548 Timestamp: 9971074568 Hands:  1 Fingers:  5 Tools:  0</code>
+
 <code>Frame:   744549 Timestamp: 9971083662 Hands:  1 Fingers:  5 Tools:  0</code>
+
 <code>...</code>
+
 <code>Exit</code>
 
 == What is Sample.rb?
